@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Blueleaf Clinic - Book an appointment, call us at (555) 123-4567, or visit us at 123 Wellness Way. We're here to help.">
+  <title>Contact Us - Blueleaf Clinic</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo" aria-label="Blueleaf Clinic Home">
+        <span class="header__logo-symbol" aria-hidden="true">🍃</span>
+        <span>Blueleaf Clinic</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="doctors.html" class="nav__link">Our Doctors</a></li>
+          <li><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__cta">
+        <a href="#book" class="btn btn--primary">Book Appointment</a>
+      </div>
+
+      <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <ul class="mobile-nav__list">
+        <li class="mobile-nav__item"><a href="index.html" class="mobile-nav__link">Home</a></li>
+        <li class="mobile-nav__item"><a href="about.html" class="mobile-nav__link">About</a></li>
+        <li class="mobile-nav__item"><a href="services.html" class="mobile-nav__link">Services</a></li>
+        <li class="mobile-nav__item"><a href="doctors.html" class="mobile-nav__link">Our Doctors</a></li>
+        <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+      </ul>
+      <div class="mobile-nav__cta">
+        <a href="#book" class="btn btn--primary btn--block">Book Appointment</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <section class="section section--blue">
+    <div class="container text-center">
+      <h1 class="fade-in">Get In Touch</h1>
+      <p class="text-large fade-in">
+        We're here to help. Book an appointment, ask a question, or just say hello.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT INFO CARDS -->
+  <section class="section">
+    <div class="container">
+      <div class="services-grid">
+        <!-- Call Us -->
+        <div class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">📞</div>
+          <h3 class="service-card__title">Call Us</h3>
+          <p class="service-card__description">
+            Speak with our friendly staff to schedule an appointment or ask questions.
+          </p>
+          <a href="tel:+15551234567" class="btn btn--primary" style="margin-top: 16px;">
+            (555) 123-4567
+          </a>
+        </div>
+
+        <!-- Visit Us -->
+        <div class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">📍</div>
+          <h3 class="service-card__title">Visit Us</h3>
+          <p class="service-card__description">
+            123 Wellness Way<br>
+            Your City, ST 12345
+          </p>
+          <a href="https://maps.google.com/?q=123+Wellness+Way+Your+City+ST+12345" target="_blank" rel="noopener" class="btn btn--secondary" style="margin-top: 16px;">
+            Get Directions
+          </a>
+        </div>
+
+        <!-- Email Us -->
+        <div class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">✉️</div>
+          <h3 class="service-card__title">Email Us</h3>
+          <p class="service-card__description">
+            Send us a message and we'll get back to you within 24 hours.
+          </p>
+          <a href="mailto:hello@blueleafclinic.com" class="btn btn--primary" style="margin-top: 16px;">
+            hello@blueleafclinic.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFICE HOURS -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="fade-in">Office Hours</h2>
+      </div>
+      <div style="max-width: 600px; margin: 40px auto 0; background: white; padding: 40px; border-radius: 16px; box-shadow: var(--shadow-md);">
+        <div style="display: grid; gap: 16px; font-size: 18px;">
+          <div style="display: flex; justify-content: space-between; padding-bottom: 16px; border-bottom: 1px solid var(--color-border);">
+            <span style="font-family: var(--font-heading); font-weight: var(--weight-semibold); color: var(--color-text-primary);">Monday - Friday</span>
+            <span style="color: var(--color-text-secondary);">8:00am - 6:00pm</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; padding-bottom: 16px; border-bottom: 1px solid var(--color-border);">
+            <span style="font-family: var(--font-heading); font-weight: var(--weight-semibold); color: var(--color-text-primary);">Saturday</span>
+            <span style="color: var(--color-text-secondary);">9:00am - 2:00pm</span>
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-weight: var(--weight-semibold); color: var(--color-text-primary);">Sunday</span>
+            <span style="color: var(--color-text-secondary);">Closed</span>
+          </div>
+        </div>
+        <p style="margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--color-border); font-size: 15px; color: var(--color-text-secondary); text-align: center;">
+          <strong style="color: var(--color-accent);">Telehealth visits available 7 days a week</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOK APPOINTMENT FORM -->
+  <section id="book" class="section">
+    <div class="container container--narrow">
+      <div class="text-center">
+        <h2 class="fade-in">Book an Appointment</h2>
+        <p class="text-large text-secondary fade-in">
+          Fill out the form below and we'll contact you to confirm your appointment.
+        </p>
+      </div>
+
+      <form data-validate style="margin-top: 48px; background: var(--color-bg-secondary); padding: 40px; border-radius: 20px;">
+        <!-- Name -->
+        <div class="form-group">
+          <label for="name" class="form-label form-label--required">Full Name</label>
+          <input type="text" id="name" name="name" class="form-input" required placeholder="John Doe">
+          <span class="form-error"></span>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email" class="form-label form-label--required">Email Address</label>
+          <input type="email" id="email" name="email" class="form-input" required placeholder="john@example.com">
+          <span class="form-error"></span>
+        </div>
+
+        <!-- Phone -->
+        <div class="form-group">
+          <label for="phone" class="form-label form-label--required">Phone Number</label>
+          <input type="tel" id="phone" name="phone" class="form-input" required placeholder="(555) 123-4567">
+          <span class="form-error"></span>
+        </div>
+
+        <!-- Appointment Type -->
+        <div class="form-group">
+          <label for="appointment-type" class="form-label form-label--required">Appointment Type</label>
+          <select id="appointment-type" name="appointment-type" class="form-select" required>
+            <option value="">Select appointment type</option>
+            <option value="new-patient">New Patient Visit</option>
+            <option value="annual-checkup">Annual Check-up</option>
+            <option value="follow-up">Follow-up Visit</option>
+            <option value="sick-visit">Sick Visit</option>
+            <option value="telehealth">Telehealth Visit</option>
+            <option value="other">Other</option>
+          </select>
+          <span class="form-error"></span>
+        </div>
+
+        <!-- Preferred Doctor -->
+        <div class="form-group">
+          <label for="doctor" class="form-label">Preferred Doctor (Optional)</label>
+          <select id="doctor" name="doctor" class="form-select">
+            <option value="">No preference</option>
+            <option value="sarah-patel">Dr. Sarah Patel, MD</option>
+            <option value="james-chen">Dr. James Chen, MD</option>
+            <option value="maria-rodriguez">Dr. Maria Rodriguez, MD</option>
+            <option value="michael-thompson">Dr. Michael Thompson, DO</option>
+            <option value="emily-nguyen">Dr. Emily Nguyen, MD</option>
+            <option value="robert-williams">Dr. Robert Williams, MD</option>
+          </select>
+          <span class="form-error"></span>
+        </div>
+
+        <!-- Preferred Date -->
+        <div class="form-group">
+          <label for="date" class="form-label form-label--required">Preferred Date</label>
+          <input type="date" id="date" name="date" class="form-input" required>
+          <span class="form-error"></span>
+        </div>
+
+        <!-- Message -->
+        <div class="form-group">
+          <label for="message" class="form-label">Additional Information (Optional)</label>
+          <textarea id="message" name="message" class="form-textarea" placeholder="Is there anything specific you'd like us to know?"></textarea>
+          <span class="form-error"></span>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" class="btn btn--primary btn--large btn--block">
+          Submit Appointment Request
+        </button>
+
+        <p class="text-small" style="margin-top: 16px; text-align: center; color: var(--color-text-secondary);">
+          We'll contact you within 24 hours to confirm your appointment.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- MAP SECTION -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="fade-in">Find Us</h2>
+        <p class="text-large text-secondary fade-in">
+          Conveniently located in the heart of Your City.
+        </p>
+      </div>
+
+      <!-- Placeholder for Map -->
+      <div style="margin-top: 48px; height: 400px; background: linear-gradient(135deg, var(--color-primary), var(--color-accent)); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white; font-size: 48px;">
+        🗺️
+        <div style="margin-left: 24px; text-align: left;">
+          <div style="font-size: 24px; font-family: var(--font-heading); font-weight: var(--weight-bold);">
+            Blueleaf Clinic
+          </div>
+          <div style="font-size: 18px; opacity: 0.9;">
+            123 Wellness Way<br>
+            Your City, ST 12345
+          </div>
+          <a href="https://maps.google.com/?q=123+Wellness+Way+Your+City+ST+12345" target="_blank" rel="noopener" class="btn btn--white" style="margin-top: 16px;">
+            Open in Google Maps
+          </a>
+        </div>
+      </div>
+
+      <p class="text-center" style="margin-top: 24px; color: var(--color-text-secondary);">
+        <strong>Parking:</strong> Free parking available in front of building and in rear lot.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-banner__container">
+      <h2 class="cta-banner__title">Have Questions?</h2>
+      <p class="cta-banner__description">
+        Our friendly staff is here to help. Give us a call or send us a message.
+      </p>
+      <div class="cta-banner__buttons">
+        <a href="tel:+15551234567" class="btn btn--white btn--large">Call (555) 123-4567</a>
+        <a href="mailto:hello@blueleafclinic.com" class="btn btn--secondary btn--large">Send Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="footer__logo-symbol" aria-hidden="true">🍃</span>
+            <span>Blueleaf Clinic</span>
+          </div>
+          <p class="footer__tagline">Healthcare that grows with you.</p>
+          <p>Modern family healthcare combining clinical excellence with compassionate, personalized care for every generation.</p>
+          <div class="footer__social">
+            <a href="https://facebook.com/blueleafclinic" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener"><span aria-hidden="true">f</span></a>
+            <a href="https://instagram.com/blueleafclinic" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener"><span aria-hidden="true">📷</span></a>
+            <a href="https://twitter.com/blueleafclinic" class="footer__social-link" aria-label="Twitter" target="_blank" rel="noopener"><span aria-hidden="true">🐦</span></a>
+          </div>
+        </div>
+
+        <div class="footer__section">
+          <h3 class="footer__title">Quick Links</h3>
+          <ul class="footer__list">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="services.html" class="footer__link">Services</a></li>
+            <li><a href="doctors.html" class="footer__link">Our Doctors</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__section">
+          <h3 class="footer__title">Services</h3>
+          <ul class="footer__list">
+            <li><a href="services.html#family-medicine" class="footer__link">Family Medicine</a></li>
+            <li><a href="services.html#preventive-care" class="footer__link">Preventive Care</a></li>
+            <li><a href="services.html#telehealth" class="footer__link">Telehealth</a></li>
+            <li><a href="services.html#pediatrics" class="footer__link">Pediatrics</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__section">
+          <h3 class="footer__title">Contact Us</h3>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon" aria-hidden="true">📍</span>
+            <div>123 Wellness Way<br>Your City, ST 12345</div>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon" aria-hidden="true">📞</span>
+            <div><a href="tel:+15551234567" class="footer__link">(555) 123-4567</a></div>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon" aria-hidden="true">✉️</span>
+            <div><a href="mailto:hello@blueleafclinic.com" class="footer__link">hello@blueleafclinic.com</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>&copy; 2025 Blueleaf Clinic. All rights reserved.</div>
+        <div class="footer__bottom-links">
+          <a href="#" class="footer__link">Privacy Policy</a>
+          <a href="#" class="footer__link">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY CTA -->
+  <div class="mobile-cta-bar">
+    <a href="tel:+15551234567" class="mobile-cta-bar__btn mobile-cta-bar__btn--call">
+      <span aria-hidden="true">📞</span> Call Now
+    </a>
+    <a href="#book" class="mobile-cta-bar__btn mobile-cta-bar__btn--book">
+      <span aria-hidden="true">📅</span> Book Visit
+    </a>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/mobile-cta.js"></script>
+</body>
+</html>

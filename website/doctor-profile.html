@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet Dr. Sarah Patel, MD - Board-certified family medicine physician at Blueleaf Clinic. Specializing in preventive care and chronic disease management.">
+  <title>Dr. Sarah Patel, MD - Blueleaf Clinic</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo" aria-label="Blueleaf Clinic Home">
+        <span class="header__logo-symbol" aria-hidden="true">🍃</span>
+        <span>Blueleaf Clinic</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="doctors.html" class="nav__link nav__link--active">Our Doctors</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__cta">
+        <a href="contact.html#book" class="btn btn--primary">Book Appointment</a>
+      </div>
+
+      <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <ul class="mobile-nav__list">
+        <li class="mobile-nav__item"><a href="index.html" class="mobile-nav__link">Home</a></li>
+        <li class="mobile-nav__item"><a href="about.html" class="mobile-nav__link">About</a></li>
+        <li class="mobile-nav__item"><a href="services.html" class="mobile-nav__link">Services</a></li>
+        <li class="mobile-nav__item"><a href="doctors.html" class="mobile-nav__link">Our Doctors</a></li>
+        <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+      </ul>
+      <div class="mobile-nav__cta">
+        <a href="contact.html#book" class="btn btn--primary btn--block">Book Appointment</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- BREADCRUMB -->
+  <section class="section section--sm" style="padding-top: 32px; padding-bottom: 0;">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <ul style="display: flex; gap: 8px; font-size: 14px; color: var(--color-text-secondary);">
+          <li><a href="index.html" style="color: var(--color-primary);">Home</a></li>
+          <li aria-hidden="true">›</li>
+          <li><a href="doctors.html" style="color: var(--color-primary);">Our Doctors</a></li>
+          <li aria-hidden="true">›</li>
+          <li>Dr. Sarah Patel</li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <!-- DOCTOR PROFILE -->
+  <section class="section">
+    <div class="container">
+      <div class="doctor-profile">
+        <div class="doctor-profile__header">
+          <!-- Photo -->
+          <div class="doctor-profile__image fade-in" aria-hidden="true">
+            👩‍⚕️
+          </div>
+
+          <!-- Info -->
+          <div class="fade-in">
+            <h1>Dr. Sarah Patel, MD</h1>
+            <p class="text-large" style="color: var(--color-primary); margin-bottom: 16px;">
+              Family Medicine Physician
+            </p>
+
+            <div class="doctor-profile__badges">
+              <span class="badge badge--primary">Board Certified</span>
+              <span class="badge badge--accent">12+ Years Experience</span>
+              <span class="badge badge--light">English & Spanish</span>
+            </div>
+
+            <blockquote style="margin: 32px 0; padding-left: 24px; border-left: 4px solid var(--color-accent); font-style: italic; color: var(--color-text-secondary); line-height: 1.7;">
+              "I believe healthcare should be a partnership. My job is to listen, educate, and empower you to make the best decisions for your health."
+            </blockquote>
+
+            <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+              <a href="contact.html#book" class="btn btn--primary">Book with Dr. Patel</a>
+              <a href="tel:+15551234567" class="btn btn--secondary">Call (555) 123-4567</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- About -->
+        <div class="doctor-profile__section">
+          <h2>About Dr. Patel</h2>
+          <p>
+            Dr. Sarah Patel joined Blueleaf Clinic because she wanted to practice medicine the way it should be—with time, attention, and genuine care for every patient. With over 12 years of experience in family medicine, she specializes in preventive care, chronic disease management, and helping families navigate all stages of health.
+          </p>
+          <p>
+            What patients love most about Dr. Patel: she actually listens, explains everything in plain language, and creates realistic, personalized health plans. She takes time to answer every question and makes sure you feel heard and understood.
+          </p>
+        </div>
+
+        <!-- Education -->
+        <div class="doctor-profile__section">
+          <h3>Education & Training</h3>
+          <ul style="margin-left: 24px; line-height: 1.8;">
+            <li><strong>Medical Degree:</strong> Johns Hopkins University School of Medicine</li>
+            <li><strong>Residency:</strong> Family Medicine, Stanford Health Care</li>
+            <li><strong>Board Certification:</strong> American Board of Family Medicine</li>
+            <li><strong>Fellowship:</strong> Preventive Medicine & Public Health</li>
+          </ul>
+        </div>
+
+        <!-- Specialties -->
+        <div class="doctor-profile__section">
+          <h3>Areas of Expertise</h3>
+          <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+            <div style="padding: 16px; background: var(--color-bg-secondary); border-radius: var(--radius-md);">
+              <h4 style="font-size: 16px; margin-bottom: 8px;">Preventive Care</h4>
+              <p style="font-size: 14px; color: var(--color-text-secondary);">Annual exams, screenings, vaccinations, wellness planning</p>
+            </div>
+            <div style="padding: 16px; background: var(--color-bg-secondary); border-radius: var(--radius-md);">
+              <h4 style="font-size: 16px; margin-bottom: 8px;">Chronic Disease Management</h4>
+              <p style="font-size: 14px; color: var(--color-text-secondary);">Diabetes, hypertension, asthma, thyroid disorders</p>
+            </div>
+            <div style="padding: 16px; background: var(--color-bg-secondary); border-radius: var(--radius-md);">
+              <h4 style="font-size: 16px; margin-bottom: 8px;">Family Medicine</h4>
+              <p style="font-size: 14px; color: var(--color-text-secondary);">Comprehensive care for all ages, from infants to seniors</p>
+            </div>
+            <div style="padding: 16px; background: var(--color-bg-secondary); border-radius: var(--radius-md);">
+              <h4 style="font-size: 16px; margin-bottom: 8px;">Women's Health</h4>
+              <p style="font-size: 14px; color: var(--color-text-secondary);">Annual exams, contraception, prenatal care, menopause</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Patient Testimonials -->
+        <div class="doctor-profile__section">
+          <h3>What Patients Say</h3>
+          <div class="testimonials-grid">
+            <div class="testimonial-card">
+              <div class="testimonial-card__rating" aria-label="5 stars">★★★★★</div>
+              <p class="testimonial-card__quote">
+                "Dr. Patel is the best doctor I've ever had. She takes time to really understand what's going on and explains everything so clearly. I never feel rushed."
+              </p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">SM</div>
+                <div class="testimonial-card__info">
+                  <div class="testimonial-card__name">Sarah M.</div>
+                  <div class="testimonial-card__meta">Patient since 2024</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-card__rating" aria-label="5 stars">★★★★★</div>
+              <p class="testimonial-card__quote">
+                "Dr. Patel helped me get my diabetes under control with a plan I could actually stick to. She's patient, knowledgeable, and truly cares."
+              </p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">RC</div>
+                <div class="testimonial-card__info">
+                  <div class="testimonial-card__name">Robert C.</div>
+                  <div class="testimonial-card__meta">Patient since 2022</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Availability -->
+        <div class="doctor-profile__section">
+          <h3>Availability</h3>
+          <p>Dr. Patel sees patients:</p>
+          <ul style="margin-left: 24px; line-height: 1.8;">
+            <li>Monday - Friday: 9:00am - 5:00pm</li>
+            <li>Select Saturday appointments available</li>
+            <li>Telehealth visits available 7 days a week</li>
+          </ul>
+          <p style="margin-top: 16px;">
+            <strong>Accepting new patients of all ages.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-banner__container">
+      <h2 class="cta-banner__title">Ready to Book with Dr. Patel?</h2>
+      <p class="cta-banner__description">
+        Experience healthcare with a doctor who truly listens. New patients welcome.
+      </p>
+      <div class="cta-banner__buttons">
+        <a href="contact.html#book" class="btn btn--white btn--large">Book Appointment</a>
+        <a href="doctors.html" class="btn btn--secondary btn--large">View All Doctors</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="footer__logo-symbol" aria-hidden="true">🍃</span>
+            <span>Blueleaf Clinic</span>
+          </div>
+          <p class="footer__tagline">Healthcare that grows with you.</p>
+          <p>Modern family healthcare combining clinical excellence with compassionate, personalized care for every generation.</p>
+          <div class="footer__social">
+            <a href="https://facebook.com/blueleafclinic" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener"><span aria-hidden="true">f</span></a>
+            <a href="https://instagram.com/blueleafclinic" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener"><span aria-hidden="true">📷</span></a>
+            <a href="https://twitter.com/blueleafclinic" class="footer__social-link" aria-label="Twitter" target="_blank" rel="noopener"><span aria-hidden="true">🐦</span></a>
+          </div>
+        </div>
+
+        <div class="footer__section">
+          <h3 class="footer__title">Quick Links</h3>
+          <ul class="footer__list">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="services.html" class="footer__link">Services</a></li>
+            <li><a href="doctors.html" class="footer__link">Our Doctors</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__section">
+          <h3 class="footer__title">Services</h3>
+          <ul class="footer__list">
+            <li><a href="services.html#family-medicine" class="footer__link">Family Medicine</a></li>
+            <li><a href="services.html#preventive-care" class="footer__link">Preventive Care</a></li>
+            <li><a href="services.html#telehealth" class="footer__link">Telehealth</a></li>
+            <li><a href="services.html#pediatrics" class="footer__link">Pediatrics</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__section">
+          <h3 class="footer__title">Contact Us</h3>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon" aria-hidden="true">📍</span>
+            <div>123 Wellness Way<br>Your City, ST 12345</div>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon" aria-hidden="true">📞</span>
+            <div><a href="tel:+15551234567" class="footer__link">(555) 123-4567</a></div>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon" aria-hidden="true">✉️</span>
+            <div><a href="mailto:hello@blueleafclinic.com" class="footer__link">hello@blueleafclinic.com</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>&copy; 2025 Blueleaf Clinic. All rights reserved.</div>
+        <div class="footer__bottom-links">
+          <a href="#" class="footer__link">Privacy Policy</a>
+          <a href="#" class="footer__link">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY CTA -->
+  <div class="mobile-cta-bar">
+    <a href="tel:+15551234567" class="mobile-cta-bar__btn mobile-cta-bar__btn--call">
+      <span aria-hidden="true">📞</span> Call Now
+    </a>
+    <a href="contact.html#book" class="mobile-cta-bar__btn mobile-cta-bar__btn--book">
+      <span aria-hidden="true">📅</span> Book Visit
+    </a>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/mobile-cta.js"></script>
+</body>
+</html>

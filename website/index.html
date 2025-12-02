@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blueleaf Clinic - Modern family healthcare that combines clinical excellence with compassionate, personalized care. Book same-day appointments, telehealth visits, and comprehensive care for all ages.">
+  <meta name="keywords" content="family healthcare, primary care, telehealth, same-day appointments, family doctor, medical clinic">
+  <title>Blueleaf Clinic - Healthcare That Grows With You</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+</head>
+<body>
+
+  <!-- ========================================
+       HEADER & NAVIGATION
+       ======================================== -->
+  <header class="header">
+    <div class="header__container">
+      <!-- Logo -->
+      <a href="index.html" class="header__logo" aria-label="Blueleaf Clinic Home">
+        <span class="header__logo-symbol" aria-hidden="true">🍃</span>
+        <span>Blueleaf Clinic</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link nav__link--active">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="doctors.html" class="nav__link">Our Doctors</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="header__cta">
+        <a href="contact.html#book" class="btn btn--primary">Book Appointment</a>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <ul class="mobile-nav__list">
+        <li class="mobile-nav__item"><a href="index.html" class="mobile-nav__link">Home</a></li>
+        <li class="mobile-nav__item"><a href="about.html" class="mobile-nav__link">About</a></li>
+        <li class="mobile-nav__item"><a href="services.html" class="mobile-nav__link">Services</a></li>
+        <li class="mobile-nav__item"><a href="doctors.html" class="mobile-nav__link">Our Doctors</a></li>
+        <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+      </ul>
+      <div class="mobile-nav__cta">
+        <a href="contact.html#book" class="btn btn--primary btn--block">Book Appointment</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========================================
+       HERO SECTION
+       ======================================== -->
+  <section class="hero">
+    <div class="container hero__container">
+      <div class="hero__content">
+        <span class="hero__eyebrow">Welcome to Blueleaf Clinic</span>
+        <h1 class="hero-title">
+          Healthcare That <span class="highlight">Actually Works</span> for Your Life
+        </h1>
+        <p class="hero__description">
+          Modern family medicine with a personal touch. Book same-day appointments, connect via telehealth, or visit our welcoming clinic—whatever fits your schedule.
+        </p>
+        <div class="hero__cta">
+          <a href="contact.html#book" class="btn btn--primary btn--large">Book Your Appointment</a>
+          <a href="about.html" class="btn btn--white btn--large">Learn More</a>
+        </div>
+        <div class="hero__info">
+          <div class="hero__info-item">
+            <span class="hero__info-icon" aria-hidden="true">📞</span>
+            <span>(555) 123-4567</span>
+          </div>
+          <div class="hero__info-item">
+            <span class="hero__info-icon" aria-hidden="true">✓</span>
+            <span>New patients welcome</span>
+          </div>
+          <div class="hero__info-item">
+            <span class="hero__info-icon" aria-hidden="true">📱</span>
+            <span>Telehealth available</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       SERVICES SECTION
+       ======================================== -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="fade-in">Comprehensive Care for Every Generation</h2>
+        <p class="text-large text-secondary fade-in">
+          From infants to grandparents—we've got you covered.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">👨‍👩‍👧‍👦</div>
+          <h3 class="service-card__title">Family Medicine</h3>
+          <p class="service-card__description">
+            Comprehensive primary care for patients of all ages. We build lasting relationships with families through every stage of life.
+          </p>
+          <a href="services.html#family-medicine" class="service-card__link">
+            Learn more →
+          </a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">🩺</div>
+          <h3 class="service-card__title">Preventive Care</h3>
+          <p class="service-card__description">
+            Annual check-ups, screenings, vaccinations, and wellness plans. Catch issues early when they're easier to treat.
+          </p>
+          <a href="services.html#preventive-care" class="service-card__link">
+            Learn more →
+          </a>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">💻</div>
+          <h3 class="service-card__title">Telehealth Visits</h3>
+          <p class="service-card__description">
+            See your doctor from anywhere. Perfect for follow-ups, minor illnesses, prescription refills, and health questions.
+          </p>
+          <a href="services.html#telehealth" class="service-card__link">
+            Learn more →
+          </a>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">👶</div>
+          <h3 class="service-card__title">Pediatric Care</h3>
+          <p class="service-card__description">
+            Specialized care for infants, children, and adolescents. Well-child visits, vaccinations, and developmental screenings.
+          </p>
+          <a href="services.html#pediatrics" class="service-card__link">
+            Learn more →
+          </a>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">💊</div>
+          <h3 class="service-card__title">Chronic Care Management</h3>
+          <p class="service-card__description">
+            Ongoing support for diabetes, hypertension, asthma, and other chronic conditions. Personalized treatment plans that work.
+          </p>
+          <a href="services.html#chronic-care" class="service-card__link">
+            Learn more →
+          </a>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">❤️</div>
+          <h3 class="service-card__title">Women's Health</h3>
+          <p class="service-card__description">
+            Comprehensive care including annual exams, contraception, prenatal care, and menopause management.
+          </p>
+          <a href="services.html#womens-health" class="service-card__link">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       DOCTORS CAROUSEL
+       ======================================== -->
+  <section class="section section--cream doctors-section">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="fade-in">Meet Our Doctors</h2>
+        <p class="text-large text-secondary fade-in">
+          Experienced, compassionate physicians who take time to listen.
+        </p>
+      </div>
+
+      <div class="doctors-carousel">
+        <div class="doctors-carousel__track">
+          <!-- Doctor 1 -->
+          <div class="doctor-card">
+            <div class="doctor-card__image" aria-hidden="true">👩‍⚕️</div>
+            <div class="doctor-card__content">
+              <h3 class="doctor-card__name">Dr. Sarah Patel, MD</h3>
+              <p class="doctor-card__specialty">Family Medicine Physician</p>
+              <div class="doctor-card__credentials">
+                <span class="doctor-card__badge">Board Certified</span>
+                <span class="doctor-card__badge">12+ Years</span>
+              </div>
+              <a href="doctor-profile.html?id=sarah-patel" class="doctor-card__link">
+                View profile →
+              </a>
+            </div>
+          </div>
+
+          <!-- Doctor 2 -->
+          <div class="doctor-card">
+            <div class="doctor-card__image" aria-hidden="true">👨‍⚕️</div>
+            <div class="doctor-card__content">
+              <h3 class="doctor-card__name">Dr. James Chen, MD</h3>
+              <p class="doctor-card__specialty">Pediatrics & Family Medicine</p>
+              <div class="doctor-card__credentials">
+                <span class="doctor-card__badge">Board Certified</span>
+                <span class="doctor-card__badge">15+ Years</span>
+              </div>
+              <a href="doctor-profile.html?id=james-chen" class="doctor-card__link">
+                View profile →
+              </a>
+            </div>
+          </div>
+
+          <!-- Doctor 3 -->
+          <div class="doctor-card">
+            <div class="doctor-card__image" aria-hidden="true">👩‍⚕️</div>
+            <div class="doctor-card__content">
+              <h3 class="doctor-card__name">Dr. Maria Rodriguez, MD</h3>
+              <p class="doctor-card__specialty">Internal Medicine</p>
+              <div class="doctor-card__credentials">
+                <span class="doctor-card__badge">Board Certified</span>
+                <span class="doctor-card__badge">10+ Years</span>
+              </div>
+              <a href="doctor-profile.html?id=maria-rodriguez" class="doctor-card__link">
+                View profile →
+              </a>
+            </div>
+          </div>
+
+          <!-- Doctor 4 -->
+          <div class="doctor-card">
+            <div class="doctor-card__image" aria-hidden="true">👨‍⚕️</div>
+            <div class="doctor-card__content">
+              <h3 class="doctor-card__name">Dr. Michael Thompson, DO</h3>
+              <p class="doctor-card__specialty">Family Medicine</p>
+              <div class="doctor-card__credentials">
+                <span class="doctor-card__badge">Board Certified</span>
+                <span class="doctor-card__badge">8+ Years</span>
+              </div>
+              <a href="doctor-profile.html?id=michael-thompson" class="doctor-card__link">
+                View profile →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <div class="carousel-controls">
+          <button class="carousel-btn" data-carousel-prev aria-label="Previous doctors">
+            ←
+          </button>
+          <button class="carousel-btn" data-carousel-next aria-label="Next doctors">
+            →
+          </button>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top: 40px;">
+        <a href="doctors.html" class="btn btn--secondary">View All Doctors</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       TESTIMONIALS SECTION
+       ======================================== -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="fade-in">What Our Patients Say</h2>
+        <p class="text-large text-secondary fade-in">
+          Real stories from real families.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-card__rating" aria-label="5 stars">
+            ★★★★★
+          </div>
+          <p class="testimonial-card__quote">
+            "Finally, a clinic that treats us like family, not numbers. Dr. Patel takes time to really listen and understand what's going on. We feel heard and cared for."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">SM</div>
+            <div class="testimonial-card__info">
+              <div class="testimonial-card__name">Sarah M.</div>
+              <div class="testimonial-card__meta">Patient since 2024</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-card__rating" aria-label="5 stars">
+            ★★★★★
+          </div>
+          <p class="testimonial-card__quote">
+            "After months of trying to find answers for Emma's allergies, Dr. Chen finally gave us a plan that worked. He's thorough, patient, and genuinely cares. We're so grateful."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">JL</div>
+            <div class="testimonial-card__info">
+              <div class="testimonial-card__name">Jennifer L.</div>
+              <div class="testimonial-card__meta">Parent</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-card__rating" aria-label="5 stars">
+            ★★★★★
+          </div>
+          <p class="testimonial-card__quote">
+            "I actually look forward to my check-ups now. No judgment, no rushing, just real conversations about my health. Dr. Rodriguez helped me create a wellness plan I can actually stick to."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">DT</div>
+            <div class="testimonial-card__info">
+              <div class="testimonial-card__name">David T.</div>
+              <div class="testimonial-card__meta">Patient since 2023</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CTA BANNER
+       ======================================== -->
+  <section class="cta-banner">
+    <div class="container cta-banner__container">
+      <h2 class="cta-banner__title">Ready to Get Started?</h2>
+      <p class="cta-banner__description">
+        Book your first appointment today—new patients welcome! We accept most major insurance plans and offer flexible scheduling to fit your life.
+      </p>
+      <div class="cta-banner__buttons">
+        <a href="contact.html#book" class="btn btn--white btn--large">Book Appointment</a>
+        <a href="tel:+15551234567" class="btn btn--secondary btn--large">Call (555) 123-4567</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       FOOTER
+       ======================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <!-- Brand Column -->
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="footer__logo-symbol" aria-hidden="true">🍃</span>
+            <span>Blueleaf Clinic</span>
+          </div>
+          <p class="footer__tagline">Healthcare that grows with you.</p>
+          <p>Modern family healthcare combining clinical excellence with compassionate, personalized care for every generation.</p>
+          <div class="footer__social">
+            <a href="https://facebook.com/blueleafclinic" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener">
+              <span aria-hidden="true">f</span>
+            </a>
+            <a href="https://instagram.com/blueleafclinic" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener">
+              <span aria-hidden="true">📷</span>
+            </a>
+            <a href="https://twitter.com/blueleafclinic" class="footer__social-link" aria-label="Twitter" target="_blank" rel="noopener">
+              <span aria-hidden="true">🐦</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer__section">
+          <h3 class="footer__title">Quick Links</h3>
+          <ul class="footer__list">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="services.html" class="footer__link">Services</a></li>
+            <li><a href="doctors.html" class="footer__link">Our Doctors</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+            <li><a href="brand.html" class="footer__link">Brand Guidelines</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer__section">
+          <h3 class="footer__title">Services</h3>
+          <ul class="footer__list">
+            <li><a href="services.html#family-medicine" class="footer__link">Family Medicine</a></li>
+            <li><a href="services.html#preventive-care" class="footer__link">Preventive Care</a></li>
+            <li><a href="services.html#telehealth" class="footer__link">Telehealth</a></li>
+            <li><a href="services.html#pediatrics" class="footer__link">Pediatrics</a></li>
+            <li><a href="services.html#chronic-care" class="footer__link">Chronic Care</a></li>
+            <li><a href="services.html#womens-health" class="footer__link">Women's Health</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer__section">
+          <h3 class="footer__title">Contact Us</h3>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon" aria-hidden="true">📍</span>
+            <div>
+              123 Wellness Way<br>
+              Your City, ST 12345
+            </div>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon" aria-hidden="true">📞</span>
+            <div>
+              <a href="tel:+15551234567" class="footer__link">(555) 123-4567</a>
+            </div>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon" aria-hidden="true">✉️</span>
+            <div>
+              <a href="mailto:hello@blueleafclinic.com" class="footer__link">hello@blueleafclinic.com</a>
+            </div>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon" aria-hidden="true">🕐</span>
+            <div>
+              Mon-Fri: 8am-6pm<br>
+              Sat: 9am-2pm
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer__bottom">
+        <div>&copy; 2025 Blueleaf Clinic. All rights reserved.</div>
+        <div class="footer__bottom-links">
+          <a href="#" class="footer__link">Privacy Policy</a>
+          <a href="#" class="footer__link">Terms of Service</a>
+          <a href="#" class="footer__link">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================
+       MOBILE STICKY CTA BAR
+       ======================================== -->
+  <div class="mobile-cta-bar">
+    <a href="tel:+15551234567" class="mobile-cta-bar__btn mobile-cta-bar__btn--call">
+      <span aria-hidden="true">📞</span>
+      Call Now
+    </a>
+    <a href="contact.html#book" class="mobile-cta-bar__btn mobile-cta-bar__btn--book">
+      <span aria-hidden="true">📅</span>
+      Book Visit
+    </a>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/carousel.js"></script>
+  <script src="assets/js/mobile-cta.js"></script>
+</body>
+</html>
