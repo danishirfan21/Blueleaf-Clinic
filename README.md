@@ -27,7 +27,7 @@ website/
 │       ├── main.js             # Core functionality (menu, scroll, accordion, forms)
 │       ├── carousel.js         # Doctors carousel with swipe support
 │       └── mobile-cta.js       # Sticky mobile CTA bar
-└── README.md                   # This file
+└── README.md                   # This file (project documentation)
 ```
 
 ---
