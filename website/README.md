@@ -4,6 +4,8 @@
 
 Complete, production-ready website for Blueleaf Clinic built with HTML5, CSS3, and vanilla JavaScript.
 
+🌐 **Live Site:** [https://blueleaf-clinic.netlify.app](https://blueleaf-clinic.netlify.app)
+
 ---
 
 ## 📁 File Structure
@@ -179,7 +181,13 @@ website/
 
 ## 🚀 Getting Started
 
-### 1. Open Locally
+### Live Production Site
+
+Visit the live website at: **[https://blueleaf-clinic.netlify.app](https://blueleaf-clinic.netlify.app)**
+
+### Local Development
+
+**1. Open Locally**
 
 Simply open `index.html` in a modern web browser:
 ```bash
@@ -190,7 +198,7 @@ cd "D:\Blueleaf Clinic\website"
 # (Double-click or right-click → Open with → Browser)
 ```
 
-### 2. Local Development Server (Optional)
+**2. Local Development Server (Optional)**
 
 For a better development experience:
 
@@ -381,6 +389,28 @@ This is a **fictional brand case study** created for portfolio and educational p
 **Form validation not working?**
 - Ensure form has `data-validate` attribute
 - Check that `.form-group`, `.form-input`, and `.form-error` classes exist
+
+---
+
+## 🌐 Deployment
+
+**Live Site:** [https://blueleaf-clinic.netlify.app](https://blueleaf-clinic.netlify.app)
+
+**Hosted on:** Netlify  
+**Deployment:** Automatic deployment from GitHub (main branch)
+
+### Deploy Your Own Copy
+
+1. Fork this repository
+2. Sign up for [Netlify](https://www.netlify.com/) (free)
+3. Connect your GitHub account
+4. Select the repository and set:
+   - **Base directory**: `website`
+   - **Build command**: (leave empty)
+   - **Publish directory**: `website`
+5. Deploy!
+
+Your site will be live at a Netlify URL that you can customize.
 
 ---
 
